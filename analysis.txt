@@ -1,0 +1,7 @@
+A few qualitative observations can be made based on the images:
+- The database features mostly examples with lighter skin. Examples with darker skin appears at a much lesser frequency.
+- The database features primarily caucasion featuers, with deep set eyes and hooded eyelids, and rarely has examples with features common in asian people like monolids or less defined facial structure. 
+- The database features a wide variety of realistic angles for observation, given the application context of a drowsy driver detection system
+- The database features a wide variety of lighting, including cool/warm, harsh/indirect lighting, etc. This is realistic of the data collected from a drowsy driver detection camera placed inside an automobile. 
+- The database contains some ambiguities in its labelling of the data. The the metrics to labelling the image data is not specified, and thus there is no way of judging the correctness of the data. From the open dataset, some images like 14360.jpg can be argued to belong in the other category. 
+- Since the data is generated through Unity, and is not real data, it contains unrealistic images produced as a result of software error. For example, some images in the open dataset have the back of the eyeball showing.
